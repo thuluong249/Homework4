@@ -1,0 +1,86 @@
+header {
+    padding: 20px;
+    background-color:cadetblue;
+    flex-wrap: wrap;
+}
+
+h1, h3 {
+    color: seashell;
+    font-weight: bold;
+}
+
+.countdown {
+    font-size: 20px;
+    color:seashell;
+}
+
+a {
+    color: seashell;
+    font-size: 20px;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(34, 34, 77); 
+    flex-wrap: wrap;   
+}
+
+.quizBox, .gameOver, .myButton {
+    text-align: center;
+    justify-content: center;
+
+}  
+
+.answerButtons, .theButtons {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px;
+    background-color: #ecf5ff;
+}
+
+.btn:hover {
+    background-color:teal;
+    color: whitesmoke;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+
+.footer {
+    color: seashell;
+    padding: 25px;
+    border-top: 2px solid;
+    background-color:cadetblue;
+    font-size: 30px;
+    text-align: center;
+}
+
+.userInput {
+    margin-bottom: 12px;
+    border: solid;
+}
+
+.userInput:focus {
+    background-color: white;
+}
+
